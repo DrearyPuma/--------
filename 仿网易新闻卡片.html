@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网易新闻卡片</title>
+    <style>
+        .card {
+            /* 卡片宽度，页面居中*/
+            width: 300px;
+            text-align: center;
+            margin:0 auto;
+        }
+        .card {
+            /* 灰色实体边框，内边距，圆角，盒子阴影 */
+            border:1px solid #ccc;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 5px 5px 5px #eee;
+        }
+        img{
+            /* 图片宽度与卡片同宽，高度自适应，底部有外边距 */
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        h3 {
+            /* 标题字体大小，加粗，颜色，底部外边距 */
+            font-size: 18px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        p {
+            /* 摘要字体大小，颜色，行高，首行缩进 */
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+            text-indent: 2em;
+        }
+        a {
+            /* a链接字体大小，颜色，无下划线，右对齐显示*/
+            font-size: 13px;
+            color: #de2626;
+            text-decoration: none;
+            display: block;
+            text-align: right;
+        }
+        a:hover {
+            /* 鼠标悬停在链接上，有下划线，颜色加深 */
+            text-decoration: underline;
+            color:#b01e1e
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="./222.jpg" alt="新闻图">
+        <h3>人工智能改变未来生活</h3>
+        <p>金秋的北京，汇聚世界目光。10月26日至29日，中国共产党第二十届中央委员会第五次全体会议在京举行，研究持之以恒推进全面从严治党若干重大问题。</p>
+        <a href="https://www.chinanews.com.cn/gn/z/zggcddesjwzqh/index.shtml" target="_blank">阅读全文</a>
+
+    </div>
+</body>
+</html>
